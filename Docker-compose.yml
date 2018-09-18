@@ -1,0 +1,17 @@
+version: "3.1"
+services:
+  mongo:
+    image: mongo
+    ports:
+    - 27018:27017
+    command: --smallfiles
+
+
+  # APP  ***************************************************************************************
+  contact-bpmshore:
+    image: spljson-bpmshore
+    ports:
+    - 8085:8085
+    links:
+    - mongo
+    entrypoint: "java -jar spljson-bpmshore.jar"

@@ -2,25 +2,23 @@ package com.bdm.bpmshore.bdm.domain;
 
 public class Section {
 
-    private String RootId;
+    private String rootId;
     private String extension;
     private Subject subject;
 
-
     public Section(String rootId, String extension, Subject subject) {
-        RootId = rootId;
+        this.rootId = rootId;
         this.extension = extension;
         this.subject = subject;
     }
 
 
-
     public String getRootId() {
-        return RootId;
+        return rootId;
     }
 
     public void setRootId(String rootId) {
-        RootId = rootId;
+        this.rootId = rootId;
     }
 
     public String getExtension() {

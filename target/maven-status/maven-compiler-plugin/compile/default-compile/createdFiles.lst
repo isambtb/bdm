@@ -1,1 +1,14 @@
+com/bdm/bpmshore/bdm/BdmApplication.class
+com/bdm/bpmshore/bdm/domain/ManifacturedProduct.class
+com/bdm/bpmshore/bdm/repository/SplRepository.class
+com/bdm/bpmshore/bdm/service/SplServiceImp.class
+com/bdm/bpmshore/bdm/domain/Section.class
+com/bdm/bpmshore/bdm/domain/Address.class
+com/bdm/bpmshore/bdm/service/SplService.class
+com/bdm/bpmshore/bdm/domain/Ingredient.class
+com/bdm/bpmshore/bdm/domain/Subject.class
+com/bdm/bpmshore/bdm/domain/Author.class
+com/bdm/bpmshore/bdm/domain/Document.class
 com/bdm/bpmshore/bdm/controller/controller.class
+com/bdm/bpmshore/bdm/domain/Code.class
+com/bdm/bpmshore/bdm/domain/SubjectOf.class

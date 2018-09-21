@@ -4,7 +4,10 @@ package com.bdm.bpmshore.bdm.domain;
 
 public class Author {
 
+    private String id;
     private String name;
+    private String personContactName;
+
 
 
 

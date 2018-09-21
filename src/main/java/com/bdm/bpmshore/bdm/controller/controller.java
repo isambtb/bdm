@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("/"bpmshore/spl)
+@RequestMapping("/bpmshore/spl")
 public class controller {
 
     @Autowired

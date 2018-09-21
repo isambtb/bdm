@@ -4,7 +4,6 @@ public class Subject {
 
     private ManifacturedProduct manifacturedProduct;
 
-
     public Subject(ManifacturedProduct manifacturedProduct) {
         this.manifacturedProduct = manifacturedProduct;
     }

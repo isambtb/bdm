@@ -8,7 +8,7 @@ services:
 
 
   # APP  ***************************************************************************************
-  contact-bpmshore:
+  spljson-bpmshore:
     image: spljson-bpmshore
     ports:
     - 8085:8085

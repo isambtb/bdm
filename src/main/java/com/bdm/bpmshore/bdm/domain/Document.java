@@ -15,10 +15,10 @@ public class Document {
     private String versionNumber;
     private Code code;
     //private Author author;
-    //private Section section;
+    private Section section;
 
 
-    public Document(String id, String title, String languageCode, String effectiveTime, String setId, String versionNumber, Code code) {
+    public Document(String id, String title, String languageCode, String effectiveTime, String setId, String versionNumber, Code code, Section section) {
         this.id = id;
         this.title = title;
         this.languageCode = languageCode;
@@ -26,6 +26,7 @@ public class Document {
         this.setId = setId;
         this.versionNumber = versionNumber;
         this.code = code;
+        this.section = section;
     }
 
     public String getId() {
@@ -82,5 +83,13 @@ public class Document {
 
     public void setCode(Code code) {
         this.code = code;
+    }
+
+    public Section getSection() {
+        return section;
+    }
+
+    public void setSection(Section section) {
+        this.section = section;
     }
 }

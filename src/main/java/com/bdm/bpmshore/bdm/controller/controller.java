@@ -21,7 +21,8 @@ public class controller {
     }
 
     @PostMapping("add")
-    public  String addSPl(@RequestBody String jsonStrong){
-        return jsonStrong;
+    public  String addSPl(@RequestBody Document document){
+        splService.saveDocument(document);
+        return document.toString();
     }
 }

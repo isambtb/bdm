@@ -16,11 +16,11 @@ public class controller {
     private SplService splService;
 
     @GetMapping("/all")
-    public ArrayList<Document> getAll(){
-        return new ArrayList<Document>();
+    public  Iterable<Document> getAll(){
+        return  splService.listAllDocuments();
     }
 
-    @PostMapping("add")
+    @PostMapping("/add")
     public  String addSPl(@RequestBody Document document){
         splService.saveDocument(document);
         return document.toString();

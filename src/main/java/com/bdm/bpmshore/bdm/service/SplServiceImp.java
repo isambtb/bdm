@@ -44,4 +44,6 @@ public class SplServiceImp implements SplService {
         splRepository.deleteById(new ObjectId(id));
     }
 
+
+
 }

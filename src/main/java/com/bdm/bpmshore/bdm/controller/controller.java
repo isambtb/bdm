@@ -6,7 +6,6 @@ import com.bdm.bpmshore.bdm.service.SplService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/bpmshore/spl")
@@ -23,6 +22,7 @@ public class controller {
     @PostMapping("/add")
     public  String addSPl(@RequestBody Document document){
         splService.saveDocument(document);
+        System.out.print(document);
         return document.toString();
     }
 }

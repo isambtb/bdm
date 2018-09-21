@@ -6,12 +6,12 @@ public class ManifacturedProduct {
 
     private Code code;
     private String name;
-    private ArrayList<Ingredient> ingredients;
+    //private ArrayList<Ingredient> ingredients;
 
-    public ManifacturedProduct(Code code, String name, ArrayList<Ingredient> ingredients) {
+
+    public ManifacturedProduct(Code code, String name) {
         this.code = code;
         this.name = name;
-        this.ingredients = ingredients;
     }
 
     public Code getCode() {
@@ -28,13 +28,5 @@ public class ManifacturedProduct {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public ArrayList<Ingredient> getIngredients() {
-        return ingredients;
-    }
-
-    public void setIngredients(ArrayList<Ingredient> ingredients) {
-        this.ingredients = ingredients;
     }
 }
